@@ -26,11 +26,11 @@ const offersData = [
         links: [
             {
                 label: 'Get Started',
-                url: `#`,
+                url: `${constants.URL_LAUNCH_KIT}`,
             },
             {
                 label: 'Live Demo',
-                url: `#`,
+                url: `${constants.URL_LAUNCH_KIT_ERC721_DEMO}`,
             },
         ],
     },
@@ -42,11 +42,11 @@ const offersData = [
         links: [
             {
                 label: 'Get Started',
-                url: `#`,
+                url: `${constants.URL_LAUNCH_KIT}`,
             },
             {
                 label: 'Live Demo',
-                url: `#`,
+                url: `${constants.URL_LAUNCH_KIT_ERC20_DEMO}`,
             },
         ],
     },
@@ -146,7 +146,7 @@ export class NextLaunchKit extends React.Component {
                     subline="Dive into our docs, or contact us if needed"
                     mainCta={{
                         text: 'Get Started',
-                        href: `${constants.URL_LAUNCH_KIT_BACKEND}/#table-of-contents`,
+                        href: `${constants.URL_LAUNCH_KIT}`,
                         shouldOpenInNewTab: true,
                     }}
                     secondaryCta={{ text: 'Get in Touch', onClick: this._onOpenContactModal.bind(this) }}
@@ -167,17 +167,17 @@ export class NextLaunchKit extends React.Component {
 
 const HeroActions = () => (
     <React.Fragment>
-        <Button href={constants.URL_LAUNCH_KIT_BACKEND} isInline={true} target="_blank">
+        <Button href={constants.URL_LAUNCH_KIT} isInline={true} target="_blank">
             Get Started
         </Button>
         <Button
-            href={constants.URL_LAUNCH_KIT_BLOG_POST}
+            href={constants.URL_LAUNCH_KIT_ERC20_DEMO}
             transparentBgColor={'#000000'}
             isTransparent={true}
             isInline={true}
             target="_blank"
         >
-            Learn More!
+            Live Demo
         </Button>
     </React.Fragment>
 );
