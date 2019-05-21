@@ -64,7 +64,7 @@ const featuresList = [
         'Docker Image for One-Click Deploy',
         'Standard Relayer API for Sharing Orders',
         'Wrapped ETH Abstraction for Easy Market Buys',
-        'Works with Any Web3-Providing Wallet',
+        'Support for all Web3 Wallets',
     ],
 ];
 
