@@ -41,7 +41,7 @@ const MarqueeWrap = styled.div<MarqueeWrapProps>`
         right: -2rem;
         bottom: -2rem;
         filter: blur(1rem);
-        z-index: 10;
+        z-index: 1;
         background: #000;
     }
 
